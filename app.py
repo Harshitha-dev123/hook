@@ -13,7 +13,7 @@ clas TestCalculator (unittest.TestCase):
   def test_substract(self):
     self.assertEqual(substract(20,10),10)
   def test_multiply(self):
-    self.assertEqual(multiply(6,4),24)
+    self.assertEqual(multiply(5,4),20)
 # Main application
 if_name_=="_main_":
   print("Student Calculator Application")
